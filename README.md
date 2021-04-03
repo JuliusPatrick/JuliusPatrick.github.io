@@ -1,6 +1,6 @@
 ## Github Pages Site
 
-Language and Tools:
+LanguageS and Tools:
   Bootstrap
   Javascript
   Cascading Style Sheet (CSS)
