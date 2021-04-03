@@ -1,4 +1,4 @@
-{
+info{
   "500px": {
     "changes": [
       "4.4",
@@ -6919,7 +6919,7 @@
         "ok",
         "schedule",
         "select",
-        "success",
+        "info",
         "tick",
         "time",
         "todo",
@@ -9160,7 +9160,7 @@
         "notify",
         "ok",
         "select",
-        "success",
+        "info",
         "tick",
         "todo",
         "yes"
@@ -9206,7 +9206,7 @@
         "done",
         "ok",
         "select",
-        "success",
+        "info",
         "tick",
         "todo",
         "yes"
@@ -9271,7 +9271,7 @@
         "notify",
         "ok",
         "select",
-        "success",
+        "info",
         "tick",
         "todo"
       ]
@@ -9317,7 +9317,7 @@
         "done",
         "ok",
         "select",
-        "success",
+        "info",
         "tick",
         "todo",
         "yes"
@@ -10426,7 +10426,7 @@
         "done",
         "ok",
         "select",
-        "success",
+        "info",
         "tick",
         "todo",
         "yes"
@@ -51058,7 +51058,7 @@
         "ok",
         "okay",
         "social",
-        "success",
+        "info",
         "thumbs-o-up",
         "yes",
         "you got it dude"

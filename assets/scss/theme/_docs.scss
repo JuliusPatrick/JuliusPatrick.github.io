@@ -34,7 +34,7 @@
 		top: 0;
 		left: 0;
 	}
-	
+
 }
 
 
@@ -59,15 +59,15 @@
 		right: 0;
 		top: 0.15rem;
 		margin-right: 0;
-		
-		
+
+
 		&:active, &:focus, &:hover {
 			outline: none !important;
 			color: $theme-color-primary;
 			@include box-shadow(none);
-			
+
 		}
-		
+
 	}
 }
 
@@ -83,7 +83,7 @@
 	position: absolute;
 	left: 15px;
 	top: 0.5rem;
-	
+
 	.site-logo {
 		display: inline-block;
 	}
@@ -101,7 +101,7 @@
     position: relative;
     top: 0.3rem;
     background: none;
-    
+
     &:focus {
 	    outline: none;
     }
@@ -126,7 +126,7 @@
 
 .docs-wrapper {
 	position: relative;
-	
+
 }
 
 .docs-sidebar {
@@ -141,19 +141,19 @@
 	/* Forefox scrollbar */
 	scrollbar-color: rgba(0, 0, 0, 0.2) $smoky-white;;
     scrollbar-width: thin;
-    
+
     /* Chrome webkit scrollbar */
-	
+
 	&::-webkit-scrollbar {
 	    width: 6px;
 	    background-color: $smoky-white;
-	} 
-	
+	}
+
 	&::-webkit-scrollbar-thumb {
 	    background-color: rgba(0, 0, 0, 0.125);
 	    @include border-radius(0.5rem);
 	}
-	
+
 	@include transition(transform .35s ease-in-out);
 	@include box-shadow(1px 0 5px 0 rgba(0,0,0,.1));
 	&.sidebar-visible {
@@ -169,8 +169,8 @@
 .docs-nav {
 	overflow-y: auto;
 	padding: 1rem;
-	
-	
+
+
 	.section-title {
 		font-size: 1rem;
 		margin-bottom: 1rem;
@@ -209,7 +209,7 @@
 			color: $theme-color-primary;
 			&:before {
 				background-color: $theme-color-primary;
-				
+
 			}
 			.theme-icon-holder {
 				color: #fff;
@@ -249,9 +249,9 @@
 		font-size: 3rem;
 		margin-bottom: 2rem;
 		position: relative;
-		
+
 	}
-	
+
 	.docs-time {
 		position: absolute;
 		display:inline-block;
@@ -269,9 +269,9 @@
 				margin-bottom: 0;
 			}
 		}
-		
+
 	}
-	
+
 	.section-heading {
 		font-size: 1.875rem;
 		margin-bottom: 1rem;
@@ -304,7 +304,7 @@
 		padding-bottom: 0.5rem;
 	}
 }
-	
+
 
 .docs-code-block {
 	padding-top: 1rem;
@@ -317,15 +317,15 @@
 	background: $smoky-white;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	
+
 	code {
 		background: #fff;
 	}
-	
+
 	.callout-title {
 		font-size: 1rem;
 	}
-	
+
 	&.callout-block-info {
 		border-color: $theme-info-color;
 		background: lighten($theme-info-color, 35%);
@@ -336,14 +336,14 @@
 			color: darken($theme-info-color, 15%);
 		}
 	}
-	&.callout-block-success {
-		border-color: $theme-success-color;
-		background: lighten($theme-success-color, 40%);
+	&.callout-block-info {
+		border-color: $theme-info-color;
+		background: lighten($theme-info-color, 40%);
 		.callout-title {
-			color: darken($theme-success-color, 15%);
+			color: darken($theme-info-color, 15%);
 		}
 		a {
-			color: darken($theme-success-color, 15%);
+			color: darken($theme-info-color, 15%);
 		}
 	}
 	&.callout-block-warning {
@@ -393,8 +393,8 @@
 @media (min-width: 576px) {  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-    
+@media (min-width: 768px) {
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -403,19 +403,19 @@
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-	
+@media (min-width: 1200px) {
+
  }
 
 
 /* We occasionally use media queries that go in the other direction */
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-    
+
 }
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
     .docs-article .docs-heading {
 	    font-size: 2.25rem;
     }
@@ -425,23 +425,23 @@
 }
 
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { 
-	
-    
+@media (max-width: 991.98px) {
+
+
 }
 
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { 
+@media (max-width: 1199.98px) {
 	.docs-content {
 	    margin-left: 0;
-    } 
+    }
     .docs-article .docs-time {
 	    position: static;
 	    display: block;
 	    padding-top: 0.5rem;
     }
-	
-	
+
+
 }
 
 // Extra large devices (large desktops)

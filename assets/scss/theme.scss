@@ -28,7 +28,7 @@ $wordpress-color: #028cb0;
 
 $single-col-max: 800px;
 
-$theme-success-color: #5cb377;
+$theme-info-color: #5b99ea;
 $theme-warning-color: #EEBF41;
 $theme-info-color: #5b99ea;
 $theme-danger-color: #d26d69;
@@ -49,9 +49,9 @@ $gray-800: lighten($theme-text-color-secondary, 10%);
 $gray-900: $theme-text-color-primary;
 
 $theme-colors: (
-  "primary":  $theme-color-primary, 
-  "secondary": $theme-text-color-secondary, 
-  "success": $theme-success-color,
+  "primary":  $theme-color-primary,
+  "secondary": $theme-text-color-secondary,
+  "info": $theme-info-color,
   "danger": $theme-danger-color,
   "warning": $theme-warning-color,
   "info": $theme-info-color,
@@ -63,4 +63,3 @@ $theme-colors: (
 
 /*************************** Theme Styles Section ****************************/
 @import "theme/styles.scss"
-
