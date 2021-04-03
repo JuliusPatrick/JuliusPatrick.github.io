@@ -1,3 +1,3 @@
-## Githhub Pages Website
+## Github Pages Website
 
 visit --> JuliusPatrick.github.io
